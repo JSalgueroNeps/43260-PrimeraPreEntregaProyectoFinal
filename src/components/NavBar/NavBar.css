@@ -1,0 +1,15 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    background-color: black;
+    padding: 0px 15px 0px 15px;
+}
+
+li{
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+}
+
