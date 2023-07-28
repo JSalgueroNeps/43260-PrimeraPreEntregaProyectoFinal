@@ -1,0 +1,46 @@
+/* Resto del componente CartItem */
+
+/* Estilos para el contenedor principal del ítem */
+.cartItem-container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Estilos para el nombre del ítem */
+  .cartItem-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para la imagen del ítem */
+  .cartItem-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para la información del ítem (cantidad y precio) */
+  .cartItem-info p {
+    margin: 5px 0;
+  }
+  
+  /* Estilos para el botón de eliminar */
+  .cartItem-button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .cartItem-button:hover {
+    background-color: #8a0000;
+  }
+  
